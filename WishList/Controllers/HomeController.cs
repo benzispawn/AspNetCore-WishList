@@ -5,14 +5,15 @@ namespace WishList.Controllers
     public class HomeController : Controller
     {
         // GET
+       
         public IActionResult Index()
         {
-            return Index();
+            return View();
         }
 
         public IActionResult Error()
         {
-            return Error();
+            return View();
         }
     }
 }
